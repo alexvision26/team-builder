@@ -1,13 +1,13 @@
 import React from "react";
-import TeamMember from './TeamMember';
 
 const TeamList = props => {
     const team = props.team;
     console.log(team)
     return (
-        <div>
-            <h2>Developers: </h2>
-            <div>
+        <div className='team-content'>
+             <h1>The Development Team</h1>
+            <h2>Our Developers: </h2>
+            <div className='dev-container'>
                 {team.map(p => (
                     <div className='team-card'>
                        <h2>Name: {p.name}</h2>

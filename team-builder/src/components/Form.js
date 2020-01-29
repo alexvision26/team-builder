@@ -20,8 +20,10 @@ const Form = props => {
     }
 
     return (
-        <div>Add a new team member:
-            <form onSubmit={submitForm}>
+        <div className='sidebar'>
+            <div className='space'></div>
+            <h3>Add a new team member:</h3>
+            <form className='new-mem-form' onSubmit={submitForm}>
                 <label>Name: </label>
                 <input id='name'
                 placeholder='Name'
@@ -40,7 +42,7 @@ const Form = props => {
                 <br/>
                 <label>Email: </label>
                 <input id='email'
-                placeholder='Role'
+                placeholder='Email'
                 type='email'
                 name='email'
                 value = {newMem.email}
