@@ -13,21 +13,33 @@ function App() {
     },
     {
       id: 2,
-      name: 'Jashele',
-      email: 'jashele@lambda.com',
-      role: 'Team Leader'
+      name: 'Joe',
+      email: 'joe@lambda.com',
+      role: 'Front End Developer'
     },
     {
       id: 3,
-      name: 'Keyeric',
-      email: 'key@lambda.com',
-      role: 'React Developer'
+      name: 'Brandon',
+      email: 'brandon@lambda.com',
+      role: 'Back End Developer'
     },
     {
       id: 4,
-      name: 'Minakshi',
-      email: 'minaksho@lambda.com',
-      role: 'React Developer'
+      name: 'Jessica',
+      email: 'jessica@lambda.com',
+      role: 'Front End Developer'
+    },
+    {
+      id: 5,
+      name: 'Terry',
+      email: 'terry@lambda.com',
+      role: 'Web UI Developer'
+    },
+    {
+      id: 6,
+      name: 'Bill',
+      email: 'Bill@lambda.com',
+      role: 'Web UI Developer'
     }
 
   ]);
