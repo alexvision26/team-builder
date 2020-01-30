@@ -44,6 +44,15 @@
   margin: 1%;
 }
 
+.team-card:hover {
+  background-color: #5a514aad;
+  color: white;
+}
+
+button:hover{
+  background-color:white;
+}
+
 .sidebar {
   background-color: #7395AE;
   height: 100vh;
@@ -85,4 +94,9 @@ input {
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
+}
+
+button {
+  background-color: #b1a296;
+  color:black;
 }
